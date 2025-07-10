@@ -4,14 +4,49 @@ Simple-nodejs-app is a simple web application created using [Node.js](https://gi
 
 ## Download and Installation
 
-- Clone the repo ```https://github.com/rat9615/simple-nodejs-app```
-- [Fork, Clone or Download on Github](https://github.com/rat9615/simple-nodejs-app)
+- Clone the repo ```https://github.com/AdegokeMichael/simple-nodejs-app.git```
+- [Fork, Clone or Download on Github](https://github.com/AdegokeMichael/simple-nodejs-app.git)
 
-## Usage
 
-- After installation, run ```npm install``` to download and install all the required dependencies.
-- Run ```npm start``` to run the web application.
+# 🚀 Simple Node.js Web App with CI/CD to AWS EC2
 
-## Live Preview
+A lightweight Node.js application that fetches and displays information about people using Wikipedia. This project demonstrates a full CI/CD pipeline using **GitHub Actions**, **Mocha** for testing, and **automated deployment to AWS EC2**.
 
-To view a live preview of this application, click [here](https://desolate-coast-53201.herokuapp.com/)
+---
+
+## 📌 Features
+
+- 🌐 Built with Express and EJS
+- 📡 Uses wiki-infobox-parser for person data
+- ✅ Automated testing using Mocha
+- 🤖 Continuous Integration with GitHub Actions
+- 🚀 Continuous Deployment to AWS EC2 with PM2
+
+---
+
+## 🧱 Technologies Used
+
+- **Node.js**
+- **Express.js**
+- **EJS (Embedded JavaScript Templates)**
+- **Mocha** – test runner
+- **GitHub Actions** – for CI/CD
+- **PM2** – process manager for Node.js
+- **AWS EC2** – cloud deployment
+
+---
+
+## 📁 Project Structure
+
+```plaintext
+simple-nodejs-app/
+├── index.js             # Entry point
+├── views/               # EJS templates
+├── public/              # Static files
+├── test/                # Mocha tests
+├── package.json         # Metadata & scripts
+└── .github/
+    └── workflows/
+        ├── ci.yml       # CI pipeline
+        └── deploy.yml   # CD pipeline
+
